@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient( #fff200,#40E0D0, #66ff00);
+    padding: 20px;
+    height: 120vh;
+    font-family: sans-serif;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: #40E0D0 3px solid;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: #40E0D0 3px solid;
+}
+
+div {
+    text-align: center;
+
+}
+
+:hover {
+    background-color: #fff200;
+}
+
