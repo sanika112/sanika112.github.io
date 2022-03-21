@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color:#2c3e50;
+    color: #ecf0f1;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 60px;
+}
+
+.navbar ul {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content:center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+    .navbar ul li a:hover {
+        color: #3498db;
+    }
+
+    /* SECTION */
+    section {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        scroll-snap-align: center;
+    }
+
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h1 span {
+        font-size: 2rem;
+    }
+
+    #home span {
+        color: #d35400;
+    }
+
+    #about span {
+        color: #34495e;
+    }
+
+    #project span {
+        color: #8e44ad;
+    }
+
+    #contact span {
+        color: #27ae60;
+    }
+
+    section p {
+        width: 50%;
+    }
+
+    /* SECTION IMAGES */
+
+    section#home {
+        background: url(https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg) no-repeat center center/cover; 
+    }
+
+    section#about {
+        background: url(https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg) no-repeat center center/cover; 
+    }
+
+    section#project {
+        background: url(https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg) no-repeat center center/cover; 
+    }
+
+    section#contact {
+        background: url(https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024_960_720.jpg) no-repeat center center/cover; 
+    }
