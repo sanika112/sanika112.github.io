@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(#1a2a6c, #b21f1f, #fdbb2d);
     font-family: sans-serif;
-    height: 100vh;
+    height: auto;
     overflow-y: scroll;
     margin: 20px;
 }
@@ -25,7 +25,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin: 100px 10px;
 }
 
 .box-1 {
