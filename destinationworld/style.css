@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(#1a2a6c, #b21f1f, #fdbb2d);
     font-family: sans-serif;
-    height: auto;
+    height: 150vh;
     overflow-y: scroll;
     margin: 20px;
 }
