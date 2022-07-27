@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background: linear-gradient(#eb5055 , #F9D923, #36AE7C, #187498);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #187498;
+}
+
+header {
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: 2px solid #fdeff9;
+    font-family: 'Hanalei Fill';
+}
+
+h1 {
+    background: -webkit-linear-gradient(#FF0000, #1F1C18);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header a {
+    color: #fdeff9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+footer {
+    border-bottom: 2px solid #fdeff9;
+}
+
+.container {
+    background: linear-gradient(#990000, #FF5B00, #D4D925, #FFEE63);
+    color: white;
+    width: 40%;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2.5px solid #1F1C18;
+}
+
+.container input {
+    padding: 1rem;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 2.5px solid #1F1C18;
+}
+
+.container input[type=checkbox] {
+    width: auto;
+}
+.btn {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: 3px, solid #1F1C18;
+    border-radius: 5px;
+    background: #36AE7C;
+}
