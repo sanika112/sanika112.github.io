@@ -1,0 +1,30 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: 3px solid #d3940b;
+    opacity: 0.8;
+}
+
+#home-section {
+    background: url(https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 1000px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 1000px;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
